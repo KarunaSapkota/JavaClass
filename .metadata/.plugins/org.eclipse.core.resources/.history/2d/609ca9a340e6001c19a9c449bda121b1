@@ -1,0 +1,11 @@
+package com.example.gui.model;
+
+import java.sql.Connection;
+
+public class AbstractDao<T> implements DataAccessObject<T> {
+	String dbUrl;
+	String dbUsername;
+	String dbPassword;
+	Connection con;
+
+}

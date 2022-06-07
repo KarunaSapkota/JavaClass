@@ -1,0 +1,46 @@
+package com.example.gui;
+
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class FormPanel extends JPanel {
+
+	public FormPanel() {
+
+		setBackground(Color.GRAY);
+		JLabel header = new JLabel("Product Form");
+		header.setBounds(230, 0, 200, 40);
+		header.setFont(new Font("Vladimir script", Font.PLAIN, 30));
+		header.setForeground(Color.GREEN);
+		add(header);
+
+		JLabel productNameLabel = new JLabel("Product Name: ");
+		productNameLabel.setBounds(150, 40, 100, 30);
+		add(productNameLabel);
+
+		JTextField productNameField = new JTextField();
+		productNameField.setBounds(250, 40, 200, 30);
+		add(productNameField);
+
+		JLabel manufacturerLabel = new JLabel("Manufacturer: ");
+		manufacturerLabel.setBounds(150, 40, 100, 30);
+		add(manufacturerLabel);
+
+		JTextField manufacturerField = new JTextField();
+		manufacturerField.setBounds(250, 40, 200, 25);
+		add(productNameField);
+
+		JLabel descriptionLabel = new JLabel("Product Description: ");
+		descriptionLabel.setBounds(150, 150, 100, 30);
+		add(descriptionLabel);
+
+		JTextField descriptionField = new JTextField();
+		descriptionField.setBounds(250, 40, 200, 25);
+		add(descriptionField);
+
+	}
+}

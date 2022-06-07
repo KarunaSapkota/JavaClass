@@ -1,0 +1,23 @@
+package gui;
+
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class FormPanel extends JPanel {
+
+	public FormPanel() {
+		setBackground()
+		Label header = new JLabel("Product Form");
+		header.setBounds(100, 0, 200, 40);
+		header.setFont(new Font("Vladimir script", Font.PLAIN, 30));
+		header.setForeground(Color.GREEN);
+		add(header);
+		JLabel productNameLabel = new JLabel("Product Name: ");
+		productNameLabel.setBounds(50, 40, 100, 30);
+		add(productNameLabel);
+		
+	}
+}

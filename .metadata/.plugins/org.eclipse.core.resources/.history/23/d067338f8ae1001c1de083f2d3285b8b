@@ -1,0 +1,13 @@
+package core.jdbc.usingDao;
+
+public class Product {
+ int id;
+ String pName;
+ String sku;
+ String manufacturer;
+ String description;
+ float price;
+ boolean isAvailable;
+ 
+ 
+}

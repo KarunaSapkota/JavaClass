@@ -1,0 +1,13 @@
+package core.intro;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+public static void main(String[]args) {
+	System.out.println("Enter the range of number: ");
+	Scanner sc=new Scanner(System.in);
+	int range=sc.nextInt();
+	
+	
+}
+}

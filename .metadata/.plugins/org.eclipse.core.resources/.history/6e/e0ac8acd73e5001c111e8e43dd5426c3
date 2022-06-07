@@ -1,0 +1,12 @@
+package com.example.swingProject.panels;
+
+import javax.swing.JFrame;
+
+public class JPanelExample {
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Panel Example");
+		frame.setBounds(200, 100, 400, 400);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+	}
+}

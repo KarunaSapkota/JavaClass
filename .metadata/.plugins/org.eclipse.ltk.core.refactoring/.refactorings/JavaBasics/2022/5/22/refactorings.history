@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Student.java&apos; to &apos;JavaBasics/src/core.jdbc.usingDao&apos;&#x0D;&#x0A;- Original project: &apos;JavaBasics&apos;&#x0D;&#x0A;- Destination element: &apos;JavaBasics/src/core.jdbc.usingDao&apos;&#x0D;&#x0A;- Original element: &apos;core.jdbc.statementExample.Student.java&apos;" description="Copy compilation unit" destination="/src&lt;core.jdbc.usingDao" element1="/src&lt;core.jdbc.statementExample{Student.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1653554131121" units="1" version="1.0"/>
+</session>

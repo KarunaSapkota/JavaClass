@@ -1,0 +1,11 @@
+package gui;
+
+import com.example.gui.MyWindow;
+
+public class App {
+
+	public static void main(String[] args) {
+		MyWindow window = new MyWindow("My GUI");
+
+	}
+}

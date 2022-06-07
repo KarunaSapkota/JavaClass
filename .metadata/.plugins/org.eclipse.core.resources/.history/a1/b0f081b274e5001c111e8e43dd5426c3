@@ -1,0 +1,36 @@
+package com.example.swingProject.panels;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class JPanelExample {
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Panel Example");
+		frame.setBounds(200, 100, 400, 400);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setLayout(new BorderLayout());
+		MyPanel panel = new MyPanel();
+		frame.add(panel, BorderLayout.NORTH);
+		frame.setVisible(true);
+	}
+
+	static class MyPanel extends JPanel {
+		public MyPanel() {
+			setBackground(Color.GRAY);
+			setBounds(0,0,400,200);
+			JLabel header = new JLabel("Product Form");
+			header.setBounds(100,0,200,40);
+			header.setFont(new Font("Vladimir script", Font.PLAIN,30)));
+			header.setForeground(Color.WHITE);
+			add(header);
+
+		}
+
+	}
+
+}
